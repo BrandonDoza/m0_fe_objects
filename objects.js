@@ -10,6 +10,10 @@ var foods = {
   grapes: 507, 
   eggs: 48
 }
+foods.watermelon = 5;
+console.log(Object.keys(foods));
+console.log(Object.values(foods));
+console.log(Object.values(foods)[1]);
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
@@ -40,7 +44,16 @@ var foods = {
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 // Write code that logs your email object to the terminal.
-
+var email = {
+  sender: "bob@gmail.com",
+  subject: "Hello There",
+  date: "11-22-2023",
+  time: "12:31pm",
+  message: "I'm writing to see if you can make the meeting tommorow?"
+}
+console.log(email);
+console.log(Object.keys(email));
+console.log(Object.values(email));
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
@@ -99,3 +112,7 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = ["sender", "subject", "date"];
+console.log(email)
+
